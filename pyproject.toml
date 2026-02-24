@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trustlayer"
+version = "0.1.2"
+authors = [
+  { name="Sudhakar K" },
+  { email="sudhakark4227@gmail.com" },
+]
+description = "AI Safety & Risk Intelligence middleware for LLM applications."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Intended Audience :: Developers",
+]
+dependencies = [
+    "typing-extensions>=4.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/trustlayer/trustlayer"
+"Bug Tracker" = "https://github.com/trustlayer/trustlayer/issues"
+
+[tool.setuptools.packages.find]
+include = ["trustlayer*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
