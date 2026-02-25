@@ -24,8 +24,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/trustlayer/trustlayer"
-"Bug Tracker" = "https://github.com/trustlayer/trustlayer/issues"
+"Homepage" = "https://github.com/trustlayer-official/trustlayer"
+"Bug Tracker" = "https://github.com/trustlayer-official/trustlayer/issues"
 
 [tool.setuptools.packages.find]
 include = ["trustlayer*"]
