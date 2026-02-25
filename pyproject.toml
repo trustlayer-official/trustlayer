@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "trustlayer"
-version = "0.1.2"
+version = "0.1.3"
 authors = [
   { name="Sudhakar K" },
   { email="sudhakark4227@gmail.com" },
